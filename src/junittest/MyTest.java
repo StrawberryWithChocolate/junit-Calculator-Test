@@ -34,6 +34,11 @@ public class MyTest {
     	result = 0 ;
     }
     
+    public void output()
+    {
+    	System.out.println("test success");
+    }
+    
     public int getresult()
     {
         return result;
