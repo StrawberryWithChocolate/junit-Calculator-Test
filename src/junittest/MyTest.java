@@ -1,0 +1,42 @@
+package junittest;
+
+public class MyTest {
+
+    private int result;
+    
+    public void add(int a, int b)
+    {
+        result = a + b ;
+    }
+    
+    public void substract(int a, int b)
+    {
+        result = a - b ;
+    }
+    
+    public void multipuly(int a,int b)   //此方法尚未完成
+    {
+    	
+    }
+    
+    public void divide(int a,int b)
+    {
+    	result = a/b ;
+    }
+    
+    public void square(int a)
+    {
+    	result = a*a ;
+    }
+    
+    public void clear()
+    {
+    	result = 0 ;
+    }
+    
+    public int getresult()
+    {
+        return result;
+    }
+    
+}
