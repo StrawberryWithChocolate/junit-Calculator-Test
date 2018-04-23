@@ -14,7 +14,8 @@ public class MyTest {
         result = a - b ;
     }
     
-    public void multipuly(int a,int b)   //此方法尚未完成
+    
+    public void multipuly(int a,int b)   
     {
     	
     }
@@ -38,6 +39,7 @@ public class MyTest {
     {
     	System.out.println("test success");
     }
+    
     
     public int getresult()
     {
